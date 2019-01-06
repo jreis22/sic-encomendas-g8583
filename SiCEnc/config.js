@@ -1,6 +1,6 @@
 module.exports = {
 
     sicGcUrl: 'http://localhost:5001/api/',
-    sicEncDbUrl: 'mongodb://localhost:27017/sic-encomendas',
+    sicEncDbUrl: process.env.SIC_ENC_DB_URL,
     sicEntregasUrl: 'http://localhost:3001/'
 }
