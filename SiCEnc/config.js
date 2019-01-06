@@ -1,6 +1,6 @@
 module.exports = {
 
-    sicGcUrl: 'https://sicgc-g8583.azurewebsites.net/api/',
+    sicGcUrl: process.env.SIC_GC_URL,
     sicEncDbUrl: process.env.SIC_ENC_DB_URL,
-    sicEntregasUrl: '40.89.154.142:3001/'
+    sicEntregasUrl: process.env.SIC_ENTREGAS_URL
 }
